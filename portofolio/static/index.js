@@ -1,4 +1,3 @@
-// Performance optimization: Use passive event listeners and debouncing
 const menuToggle = document.getElementById('mobile-menu');
 const navLinks = document.getElementById('nav-links');
 const menuIcon = document.getElementById('menu-icon');

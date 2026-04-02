@@ -1,4 +1,3 @@
-/* === VARIABEL WARNA & RESET DASAR === */
 :root {
     --bg-light: #f4f5f6;
     --bg-dark: #1a1a1a;
@@ -20,7 +19,6 @@ body {
     color: var(--text-dark);
 }
 
-/* === NAVIGASI === */
 nav {
     position: fixed;
     top: 0;
@@ -62,10 +60,9 @@ nav.nav-scrolled {
     color: var(--text-light);
     font-size: 1.5rem;
     cursor: pointer;
-    z-index: 1001; /* Pastikan tombol selalu di atas overlay menu */
+    z-index: 1001;
 }
 
-/* === HERO SECTION === */
 .hero {
     height: 100vh;
     background: linear-gradient(105deg, var(--bg-light) 55%, var(--bg-dark) 55%);
@@ -120,7 +117,6 @@ nav.nav-scrolled {
     border-bottom: 5px solid var(--accent);
 }
 
-/* === TITEL SECTION BERSAMA === */
 .section-title-wrapper {
     text-align: center;
     margin-bottom: 50px;
@@ -135,7 +131,6 @@ nav.nav-scrolled {
     text-transform: uppercase;
 }
 
-/* === ABOUT SECTION === */
 .about {
     padding: 100px 10%;
     background-color: var(--text-light);
@@ -149,7 +144,6 @@ nav.nav-scrolled {
     color: #666;
 }
 
-/* === SKILLS SECTION === */
 .skills {
     padding: 80px 10%;
     background-color: var(--bg-light);
@@ -186,7 +180,6 @@ nav.nav-scrolled {
     color: var(--text-dark);
 }
 
-/* === PORTFOLIO SECTION === */
 .portfolio-header {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1500&h=400&fit=crop') center/cover no-repeat;
     padding: 100px 0;
@@ -216,7 +209,6 @@ nav.nav-scrolled {
     cursor: pointer;
 }
 
-/* === CONTACT SECTION === */
 .contact {
     padding: 100px 10%;
     background-color: var(--text-light);
@@ -278,7 +270,6 @@ footer .social-icons a {
     font-size: 1.2rem;
 }
 
-/* === SCROLL ANIMATIONS === */
 .about, .skills, #portfolio, .contact {
     opacity: 0;
     transform: translateY(50px);
@@ -336,14 +327,12 @@ footer .social-icons a {
     will-change: auto;
 }
 
-/* === RESPONSIVE MOBILE TWEAKS === */
 @media (max-width: 900px) {
-    /* Navbar & Menu Overlay Mobile */
     nav {
         background-color: transparent;
         padding: 20px !important;
     }
-    
+
     nav.nav-scrolled {
         background-color: var(--bg-dark);
     }
@@ -352,14 +341,13 @@ footer .social-icons a {
         display: block;
     }
 
-    /* Menu layar penuh bergaya modern */
     .nav-links {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: rgba(26, 26, 26, 0.98); /* Warna gelap transparan elegan */
+        background-color: rgba(26, 26, 26, 0.98);
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -378,13 +366,12 @@ footer .social-icons a {
         text-transform: uppercase;
     }
 
-    /* Hero Section Mobile - Menjaga gambar tetap terlihat */
     .hero {
-        flex-direction: column; /* Teks di atas, gambar di bawah */
-        background: var(--bg-light); /* Latar belakang cerah seragam di mobile */
+        flex-direction: column;
+        background: var(--bg-light);
         text-align: center;
         padding-top: 100px;
-        height: auto; /* Membiarkan konten bernapas */
+        height: auto;
         min-height: 100vh;
     }
 
@@ -394,19 +381,18 @@ footer .social-icons a {
     }
 
     .hero-content h1 {
-        font-size: 2.5rem; /* Menyesuaikan ukuran font agar tidak terlalu besar */
+        font-size: 2.5rem;
     }
 
     .hero-image {
         width: 100%;
-        max-width: 350px; /* Membatasi lebar gambar di mobile */
+        max-width: 350px;
     }
 
-    /* Penyesuaian Spasi untuk semua section di Mobile */
     .about, .skills, .contact {
         padding: 60px 5%;
     }
-    
+
     .portfolio-header {
         padding: 60px 0;
     }
