@@ -1,60 +1,43 @@
-# Hey there! 👋 I'm NovaVest
+# 🎨 NovaVest - Portfolio
 
-### Junior Full Stack Developer | Web Development | Android Apps | AI Enthusiast
+**Selamat datang di Portfolio Saya!** Ini adalah halaman portfolio pribadi saya sebagai Junior Full Stack Developer.
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 Tentang Saya
 
-Saya adalah **Junior Full Stack Developer** yang berdedikasi untuk mengembangkan solusi digital yang efisien dan ramah pengguna. Dengan fokus pada:
+Saya adalah **Junior Full Stack Developer** bernama **Faizz Bangkit Adhi Pratama** yang berdedikasi untuk mengembangkan solusi digital yang efisien dan ramah pengguna. 
 
-- 🌐 **Pengembangan Website** - Frontend dan Backend
+Dengan fokus pada:
+- 🌐 **Web Development** - Frontend & Backend
 - 📱 **Aplikasi Android** - Native Development
-- 🤖 **Artificial Intelligence** - Machine Learning & AI Solutions
+- 🤖 **Artificial Intelligence** - Machine Learning Solutions
 
-Saya adalah **pembelajaran cepat** yang percaya bahwa:
 > "Kode yang baik adalah kode yang fungsional sekaligus mudah dipahami"
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
 
-**Languages & Frameworks:**
-- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+### 🚀 Currently Using:
+- HTML5
+- CSS3
+- JavaScript
+- Python
 
-**Development:**
-- Web Development (Frontend & Backend)
-- Android Development
-- Machine Learning & AI
-- UI/UX Design Focused
-
----
-
-## 🎯 What I'm Currently Doing
-
-- 🔭 Mengembangkan proyek **Full Stack**
-- 📚 Belajar lebih dalam tentang **AI & Machine Learning**
-- 🛠️ Memperbaiki kemampuan dalam **clean code** dan **best practices**
-- 🤝 Terbuka untuk **kolaborasi** dan **learning opportunities**
+### 📚 Currently Learning:
+- PHP
+- Java
+- Kotlin
 
 ---
 
-## 📊 GitHub Stats
+## ✨ Fitur Portfolio
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=GRowUpNoww)](https://git.io/streak-stats)
-
----
-
-## 📫 Get In Touch
-
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐦 Twitter: [@yourhandle]
-- 🌐 Portfolio: [Your Portfolio Website]
-
----
-
-⭐️ Jika Anda menyukai project saya, jangan lupa untuk memberikan **star**!
+✅ Desain **Responsive** - Kompatibel di semua perangkat  
+✅ **Navigation** yang intuitif dengan menu mobile  
+✅ Section **About Me** - Pengenalan diri  
+✅ Section **Skills** - Teknologi yang dikuasai  
+✅ Section **Portfolio** - Showcase proyek  
+✅ **Social Media Links** - Connect dengan saya  
+✅ Performance optimized dengan lazy loading  
